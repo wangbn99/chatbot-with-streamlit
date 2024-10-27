@@ -8,7 +8,7 @@ To correctly run the app, an OpenAI API key is needed to set in secrets.toml con
 .\.streamlit\secrets.toml
 OpenAI_key='xxxxxxxxxxxx'
 ```
-You can go to https://platform.openai.com/account/api-keys get your OpenAI API key
+You can go to https://platform.openai.com/account/api-keys to create and get your OpenAI API key.
 
 ## Run locally
 
