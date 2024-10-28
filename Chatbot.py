@@ -21,8 +21,6 @@ if prompt := st.chat_input():
         msg = response.choices[0].message.content
     except AuthenticationError as e:
         msg = e.message
-    except Exception as e:
-        msg = e.message
     else:
         msg = "Error response from GPT"       
     st.session_state.messages.append({"role": "assistant", "content": msg})
